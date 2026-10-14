@@ -1,8 +1,8 @@
 {
-  "name": "My Website",
-  "shortName": "My Website",
+  "name": "TFS Table Tennis Team",
+  "shortName": "TFS Table Tennis Team",
   "url": "https://example.com",
-  "tagline": "",
+  "tagline": "Winner",
   "footerTagline": "",
   "description": "",
   "language": "en",
@@ -10,25 +10,25 @@
   "foundedYear": "",
   "themeColor": "#FFFFFF",
   "brand": {
-    "logoText": "My Website",
+    "logoText": "TFD Table Tennis Team",
     "logo": "",
     "logoDark": "",
-    "logoMark": "/assets/img/logo-mark.svg",
-    "favicon": "",
+    "logoMark": "/assets/img/uploads/logo-mark.png",
+    "favicon": "/assets/img/uploads/logo-mark.png",
     "defaultOgImage": "/assets/img/og-default.svg"
   },
   "contact": {
-    "email": "",
-    "whatsapp": "",
-    "whatsappUrl": "",
+    "email": "ibnulashir.tforce@gmail.com",
+    "whatsapp": "+880 1556-777043",
+    "whatsappUrl": "https://wa.me/8801556777043",
     "bookingUrl": "",
     "bookingLabel": "Book a call",
     "responseTime": ""
   },
   "social": {
-    "linkedin": "",
-    "x": "",
-    "facebook": "",
+    "linkedin": "https://www.linkedin.com/company/twinforce-solutions",
+    "x": "https://www.x.com/@TwinStackSolutions-sf",
+    "facebook": "https://www.facebook.com/@TwinStackSolutions-sf",
     "instagram": "",
     "youtube": "",
     "github": ""
