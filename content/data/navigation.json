@@ -13,7 +13,7 @@
     ],
     "cta": {
       "label": "Contact us",
-      "url": "/#contact"
+      "url": "/contact.html"
     }
   },
   "footer": [
@@ -30,7 +30,7 @@
         },
         {
           "label": "Contact",
-          "url": "/#contact"
+          "url": "/contact.html"
         }
       ]
     }
