@@ -1,9 +1,9 @@
-<header data-designed="claude" data-scrolled="false"
-        class="group/header sticky top-0 z-50 border-b border-white/10 bg-[#0d1b2c] text-[#f5f7fb] shadow-lg shadow-[#0d1b2c]/20">
+<header data-designed="claude"
+        class="relative z-50 border-b border-white/10 bg-[#0d1b2c] text-[#f5f7fb] shadow-lg shadow-[#0d1b2c]/20">
   <span aria-hidden="true" class="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-linear-to-r from-transparent via-[#6f9bff]/70 to-transparent"></span>
-  <div class="mx-auto flex h-16 w-full max-w-7xl items-center gap-6 px-5 transition-[height] duration-300 sm:px-8 group-data-[scrolled=true]/header:h-14">
+  <div class="mx-auto flex h-16 w-full max-w-7xl items-center gap-6 px-5 sm:px-8">
     <a href="/" class="inline-flex min-h-11 shrink-0 items-center gap-2.5 rounded-full text-[1.05rem] font-extrabold tracking-tight text-[#f5f7fb] no-underline transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#6f9bff]">
-      {{# if nav.appearance.header.logoOnDark }}<img src="{{ nav.appearance.header.logoOnDark }}" alt="{{ site.brand.logoText }}" class="block h-8 w-auto max-w-52 object-contain transition-[height] duration-300 group-data-[scrolled=true]/header:h-7">{{ else }}<img src="{{ site.brand.logoMark }}" alt="" width="28" height="28" class="size-8 rounded-lg bg-[#f5f7fb] p-0.5 shadow-md shadow-black/30 transition-[width,height] duration-300 group-data-[scrolled=true]/header:size-7"> {{ site.brand.logoText }}{{/ if }}
+      {{# if nav.appearance.header.logoOnDark }}<img src="{{ nav.appearance.header.logoOnDark }}" alt="{{ site.brand.logoText }}" class="block h-8 w-auto max-w-52 object-contain">{{ else }}<img src="{{ site.brand.logoMark }}" alt="" width="28" height="28" class="size-8 rounded-lg bg-[#f5f7fb] p-0.5 shadow-md shadow-black/30"> {{ site.brand.logoText }}{{/ if }}
     </a>
 
     <button type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"

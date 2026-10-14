@@ -20,3 +20,9 @@ Written automatically: one line per change Claude made to this site that was kep
   - Added two contact cards linking to mailto:ibnulashir.tforce@gmail.com and https://wa.me/8801556777043, each with icon and pill button.
   - Added a "Still to be announced" section with four dashed cards (Venue, Entry fee, Prizes, Match times) and a "Back to the schedule" button to /#schedule.
 - 2026-10-14 · assistant:update-menu-and-footer · content/data/navigation.json · Points the Contact button and footer link to the new Contact page.
+- 2026-10-14 · chrome:design · templates/partials/header.html · Keep the current look (navy header, off-white text, blue accents, pill CTA) but make the header NOT sticky/fixed: it should sit at the top of the page and scro…
+  - Header positioning changed from `sticky top-0` to `relative`, so it now scrolls away with the page instead of staying fixed at the top.
+  - Removed the `data-scrolled` attribute and the shrink-on-scroll classes (`transition-[height]`, `group-data-[scrolled=true]/header:h-14`) from the header's inner flex container.
+  - Dropped the logo shrink transitions: height/size animation classes and `group-data-[scrolled=true]/header:h-7` and `size-7` on both logo image variants.
+  - Kept the navy background, off-white text, blue gradient hairline accent, pill CTA styling, and the responsive mobile menu markup untouched.
+- 2026-10-14 · assistant:update-menu-and-footer · content/data/navigation.json · Turns off the sticky and shrinking header settings.

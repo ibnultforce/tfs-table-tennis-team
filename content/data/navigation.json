@@ -40,10 +40,10 @@
     "header": {
       "theme": "dark",
       "layout": "right",
-      "sticky": true,
+      "sticky": false,
       "style": "bar",
       "transparent": false,
-      "shrink": true
+      "shrink": false
     },
     "footer": {
       "theme": "dark",
