@@ -26,3 +26,8 @@ Written automatically: one line per change Claude made to this site that was kep
   - Dropped the logo shrink transitions: height/size animation classes and `group-data-[scrolled=true]/header:h-7` and `size-7` on both logo image variants.
   - Kept the navy background, off-white text, blue gradient hairline accent, pill CTA styling, and the responsive mobile menu markup untouched.
 - 2026-10-14 · assistant:update-menu-and-footer · content/data/navigation.json · Turns off the sticky and shrinking header settings.
+- 2026-10-14 · scaffold:schedule · content/blog/mafiul-sadman.md · wrote "Mafiul Sadman": Introduction
+  - Created the page: added frontmatter with title "Mafiul Sadman", date 2026-10-14, description, metaTitle, metaDescription, focusKeyword "Mafiul Sadman", and excerpt.
+  - Added a hero section with an "MS" monogram tile, "Introduction" eyebrow, the Mafiul Sadman heading, a placeholder line, and a date/author line.
+  - Added an "About this page" section explaining his role and background are not yet published.
+  - Added two cards ("Role and background" reading "To be announced", and a "Questions" card with a "Contact the team" link to /contact.html) plus a closing link to the homepage.

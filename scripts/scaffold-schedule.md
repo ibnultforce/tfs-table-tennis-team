@@ -100,5 +100,15 @@ exactly as written.
    `"done": false` (remove `completedDate`) to generate it again from scratch.
 
 ```json
-[]
+[
+  {
+    "location": "content/blog",
+    "title": "Mafiul Sadman",
+    "date": "2026-10-14",
+    "description": "Introduction",
+    "research": true,
+    "done": true,
+    "completedDate": "2026-10-14"
+  }
+]
 ```

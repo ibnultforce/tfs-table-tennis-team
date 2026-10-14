@@ -15,3 +15,4 @@ A path without an extension (`- thank-you`) is the page `thank-you.html`, a path
 - terms.html
 - 404.html
 - blog/index.html
+- blog/mafiul-sadman.html
