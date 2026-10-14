@@ -31,3 +31,9 @@ Written automatically: one line per change Claude made to this site that was kep
   - Added a hero section with an "MS" monogram tile, "Introduction" eyebrow, the Mafiul Sadman heading, a placeholder line, and a date/author line.
   - Added an "About this page" section explaining his role and background are not yet published.
   - Added two cards ("Role and background" reading "To be announced", and a "Questions" card with a "Contact the team" link to /contact.html) plus a closing link to the homepage.
+- 2026-10-14 · assistant:add-file-to-site · assets/img/uploads/mafiul-sadman.jpg · Adds Mafiul Sadman's photo to the site's images.
+- 2026-10-14 · page:edit · content/blog/mafiul-sadman.md · Rewrite this introduction page for Mafiul Sadman with real content, keeping the site's navy/blue/off-white sporty style and the existing page structure where s…
+  - Rewrote description, metaTitle, metaDescription and excerpt in frontmatter to describe Mafiul Sadman as an AI engineer, five years in AI technology, and a tournament player.
+  - Swapped the 'MS' monogram tile for his portrait photo (/assets/img/uploads/mafiul-sadman.jpg, alt "Mafiul Sadman") in a rounded, cover-cropped frame in the hero.
+  - Removed the placeholder "To be announced" role card and placeholder copy; rewrote the intro as a "Who he is" section with his role, experience and tournament details.
+  - Added an "At a glance" section with three cards — Role (AI engineer), Experience (5 years in AI technology), On the table (Player) — plus a "See the schedule" link, and replaced the contact block wit…
