@@ -104,5 +104,9 @@
   },
   "updates": {
     "migrations": []
+  },
+  "analytics": {
+    "endpoint": "https://api.twinstack.net/api/collect",
+    "key": "AbwwudISb_AHwsxEq1wBZvFz"
   }
 }
